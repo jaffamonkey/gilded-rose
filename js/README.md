@@ -24,15 +24,12 @@ When writing test cases for the new implementation, I checked the number of perm
 ```
 |-- gilded-rose-js
     |-- README.md
-// Amended both these html files to include Conjured behavior tests
     |-- SpecRunner.html
     |-- TexttestFixture.html
-// Unchanged lib structure/versions
     |-- lib
     |-- spec
     |   |-- AgedBrie_spec.js
     |   |-- BackStagePass_spec.js
-// Tests for new Conjured item
     |   |-- Conjured_spec.js
     |   |-- Shop_spec.js
     |   |-- CommonItem_spec.js
@@ -40,13 +37,9 @@ When writing test cases for the new implementation, I checked the number of perm
     |-- src
         |-- AgedBrie.js
         |-- BackStagePass.js
-// Additional class for Conjured item
         |-- Conjured.js
-// Additional class for item constructor (fixture)
         |-- Item.js
-// Additional class for item updates
         |-- Shop.js
-// Abstracted shared item properties class (extends Item class)
         |-- CommonItem.js
         |-- Sulfuras.js
 ```
