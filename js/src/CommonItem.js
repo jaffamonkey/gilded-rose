@@ -1,6 +1,6 @@
 'use strict';
 
-;(function (exports) {
+(function (exports) {
   class CommonItem extends Item {
     itemTomorrow () {
       this.quality = this._qualityTomorrow();

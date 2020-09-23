@@ -1,6 +1,6 @@
 'use strict';
 
-;(function (exports) {
+(function (exports) {
   class AgedBrie extends CommonItem {
     _calculateDepreciation () {
       return this.sellIn <= 0 ? -2 : -1;
