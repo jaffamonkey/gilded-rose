@@ -5,9 +5,7 @@
 ```
 $ git clone git@github.com:jonsanders101/gilded-rose-js.git
 $ cd gilded-rose-js
-// Viewing the Item List_
 $ open TexttestFixture.html
-// Running the Test Suite_
 $ open SpecRunner.html
 ```
 
